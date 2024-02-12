@@ -1,0 +1,37 @@
+h1{
+    color:rgb(25, 72, 113)
+}
+
+#CTK{
+    background-color: cadetblue;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color:green
+}
+
+a:hover{
+    color: yellow;
+}
+
+main{
+    color: rgb(71, 88, 112);
+    background-color: darksalmon;
+}
+
+.Title{
+    color: coral;
+    background-color: cornflowerblue;
+}
+
+span#text1{
+    color: pink;
+}
+
+#courses{
+    color: blueviolet;
+}
