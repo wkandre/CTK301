@@ -1,0 +1,39 @@
+span#textfont{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span#center{
+    text-align: center;
+}
+
+span#justify{
+    text-align: justify;
+}
+
+h1{
+    color: orange;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h2{
+    color: orange;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#image{
+    background-color: yellow;
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+body{
+    background-image: url("basicbackground.jpeg");
+}
