@@ -1,0 +1,87 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: repeat(12, 100px);
+  grid-template-columns: repeat(12, 100px);
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-row: 1 / 1;
+  grid-column: 1 / 13; 
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  grid-row: 1 / 1;
+  grid-column: 1 / 13;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 38px;
+  margin-top: 15px;
+  width: 250px;
+  background-color: red;
+  color: white;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  border: 1px solid white;
+  background-color: red;
+  display: block;
+}
+
+nav li a:hover{
+  background-color: rgb(102, 13, 13);
+}
+
+.dummycolumn2 {
+  background-color: rgba(0, 0, 255, 0.841);
+  grid-row: 2 / 4;
+  grid-column: 1 / 13;
+  color: #ffffff;
+}
+
+.dummycolumn3 {
+  background-color: rgba(0, 255, 217, 0.841);
+  grid-row: 4 / 9;
+  grid-column: 1 / 7;
+}
+
+.dummycolumn4 {
+  background-color: rgb(0, 165, 127);
+  grid-row: 4 / 9;
+  grid-column: 7 / 13;
+}
+
+.dummycolumn5 {
+  background-color: rgb(151, 0, 165);
+  grid-row: 9/ 12;
+  grid-column: 1 / 13;
+  color: #ffffff;
+}
+
+.dummycolumn6 {
+  background-color: rgb(165, 162, 0);
+  grid-row: 12 / 13;
+  grid-column: 1 / 13;
+  color: #ffffff;
+}
